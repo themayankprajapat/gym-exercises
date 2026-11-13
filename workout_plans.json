@@ -1,0 +1,3099 @@
+{
+  "version": 1,
+  "last_updated": "2026-11-14",
+  "plans": [
+    {
+      "id": "beginner_plan",
+      "title": "Beginner Plan",
+      "level": "Beginner",
+      "goal": "Build basic strength & consistency",
+      "schedule": "3 days/week",
+      "rest_seconds": 75,
+      "description": "Build your foundation with this essential 3-day full-body routine. Automatically alternates Full Body A and Full Body B.",
+      "days": [
+        {
+          "day_name": "Monday - Full Body A",
+          "short_day": "Mon",
+          "focus": "Full Body A",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "1760",
+              "name": "Goblet Squat",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Legs"
+            },
+            {
+              "id": "1301",
+              "name": "Machine Chest Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Chest"
+            },
+            {
+              "id": "2330",
+              "name": "Lat Pulldown",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Back"
+            },
+            {
+              "id": "0180",
+              "name": "Seated Cable Row",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Back"
+            },
+            {
+              "id": "0334",
+              "name": "Dumbbell Lateral Raise",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0201",
+              "name": "Cable Tricep Pushdown",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Arms"
+            },
+            {
+              "id": "0464",
+              "name": "Plank",
+              "sets_count": 3,
+              "reps": "30s",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday - Rest",
+          "short_day": "Tue",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        },
+        {
+          "day_name": "Wednesday - Full Body B",
+          "short_day": "Wed",
+          "focus": "Full Body B",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "2287",
+              "name": "Leg Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Legs"
+            },
+            {
+              "id": "0289",
+              "name": "Dumbbell Bench Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Chest"
+            },
+            {
+              "id": "0180",
+              "name": "Seated Cable Row",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Back"
+            },
+            {
+              "id": "0219",
+              "name": "Machine Shoulder Press",
+              "sets_count": 2,
+              "reps": "10",
+              "category": "Shoulders"
+            },
+            {
+              "id": "1651",
+              "name": "Dumbbell Bicep Curl",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Arms"
+            },
+            {
+              "id": "3235",
+              "name": "Leg Curl",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Legs"
+            },
+            {
+              "id": "0274",
+              "name": "Crunch",
+              "sets_count": 3,
+              "reps": "15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Thursday - Rest",
+          "short_day": "Thu",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        },
+        {
+          "day_name": "Friday - Full Body A",
+          "short_day": "Fri",
+          "focus": "Full Body A",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "1760",
+              "name": "Goblet Squat",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Legs"
+            },
+            {
+              "id": "1301",
+              "name": "Machine Chest Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Chest"
+            },
+            {
+              "id": "2330",
+              "name": "Lat Pulldown",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Back"
+            },
+            {
+              "id": "0180",
+              "name": "Seated Cable Row",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Back"
+            },
+            {
+              "id": "0334",
+              "name": "Dumbbell Lateral Raise",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0201",
+              "name": "Cable Tricep Pushdown",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Arms"
+            },
+            {
+              "id": "0464",
+              "name": "Plank",
+              "sets_count": 3,
+              "reps": "30s",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday - Rest",
+          "short_day": "Sat",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        },
+        {
+          "day_name": "Sunday - Rest",
+          "short_day": "Sun",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "id": "intermediate_plan",
+      "title": "Intermediate Plan",
+      "level": "Intermediate",
+      "goal": "Build strength & muscle",
+      "schedule": "5 days/week",
+      "rest_seconds": 75,
+      "description": "Step up your training with a focused 5-day Push / Pull / Legs / Upper / Lower split.",
+      "days": [
+        {
+          "day_name": "Monday - Push",
+          "short_day": "Mon",
+          "focus": "Push Day",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0025",
+              "name": "Barbell Bench Press",
+              "sets_count": 4,
+              "reps": "8",
+              "category": "Chest"
+            },
+            {
+              "id": "0314",
+              "name": "Incline Dumbbell Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Chest"
+            },
+            {
+              "id": "0361",
+              "name": "Dumbbell Shoulder Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0334",
+              "name": "Dumbbell Lateral Raise",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0201",
+              "name": "Cable Tricep Pushdown",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Arms"
+            },
+            {
+              "id": "0194",
+              "name": "Overhead Cable Extension",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday - Pull",
+          "short_day": "Tue",
+          "focus": "Pull Day",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0652",
+              "name": "Pull-Up",
+              "sets_count": 3,
+              "reps": "6-10",
+              "category": "Back"
+            },
+            {
+              "id": "0027",
+              "name": "Barbell Bent-Over Row",
+              "sets_count": 4,
+              "reps": "8",
+              "category": "Back"
+            },
+            {
+              "id": "2330",
+              "name": "Lat Pulldown",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Back"
+            },
+            {
+              "id": "0233",
+              "name": "Face Pull",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "2404",
+              "name": "EZ-Bar Curl",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Arms"
+            },
+            {
+              "id": "0165",
+              "name": "Hammer Curl",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Wednesday - Legs",
+          "short_day": "Wed",
+          "focus": "Leg Day",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0026",
+              "name": "Barbell Back Squat",
+              "sets_count": 4,
+              "reps": "8",
+              "category": "Legs"
+            },
+            {
+              "id": "0085",
+              "name": "Romanian Deadlift",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Legs"
+            },
+            {
+              "id": "2287",
+              "name": "Leg Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Legs"
+            },
+            {
+              "id": "0098",
+              "name": "Bulgarian Split Squat",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Legs"
+            },
+            {
+              "id": "3235",
+              "name": "Leg Curl",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Legs"
+            },
+            {
+              "id": "1372",
+              "name": "Standing Calf Raise",
+              "sets_count": 4,
+              "reps": "12",
+              "category": "Legs"
+            }
+          ]
+        },
+        {
+          "day_name": "Thursday - Rest",
+          "short_day": "Thu",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        },
+        {
+          "day_name": "Friday - Upper",
+          "short_day": "Fri",
+          "focus": "Upper Body",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0025",
+              "name": "Barbell Bench Press",
+              "sets_count": 3,
+              "reps": "8",
+              "category": "Chest"
+            },
+            {
+              "id": "2330",
+              "name": "Lat Pulldown",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Back"
+            },
+            {
+              "id": "0314",
+              "name": "Incline Dumbbell Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Chest"
+            },
+            {
+              "id": "0180",
+              "name": "Seated Cable Row",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Back"
+            },
+            {
+              "id": "0334",
+              "name": "Dumbbell Lateral Raise",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "2404",
+              "name": "EZ-Bar Curl",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Arms"
+            },
+            {
+              "id": "0201",
+              "name": "Cable Tricep Pushdown",
+              "sets_count": 2,
+              "reps": "12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday - Lower",
+          "short_day": "Sat",
+          "focus": "Lower Body",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0026",
+              "name": "Barbell Back Squat",
+              "sets_count": 4,
+              "reps": "8",
+              "category": "Legs"
+            },
+            {
+              "id": "0085",
+              "name": "Romanian Deadlift",
+              "sets_count": 3,
+              "reps": "8",
+              "category": "Legs"
+            },
+            {
+              "id": "2287",
+              "name": "Leg Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Legs"
+            },
+            {
+              "id": "1460",
+              "name": "Walking Lunges",
+              "sets_count": 3,
+              "reps": "10 each leg",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Extension",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Legs"
+            },
+            {
+              "id": "0599",
+              "name": "Seated Leg Curl",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Legs"
+            },
+            {
+              "id": "1372",
+              "name": "Standing Calf Raise",
+              "sets_count": 4,
+              "reps": "15",
+              "category": "Legs"
+            }
+          ]
+        },
+        {
+          "day_name": "Sunday - Rest",
+          "short_day": "Sun",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "id": "advanced_plan",
+      "title": "Advanced Plan",
+      "level": "Advanced",
+      "goal": "Advanced strength & muscle development",
+      "schedule": "6 days/week",
+      "rest_seconds": 90,
+      "description": "High-frequency, high-volume 6-day split (Push A / Pull A / Legs A / Push B / Pull B / Legs B) for maximum strength and hypertrophy.",
+      "days": [
+        {
+          "day_name": "Monday - Push A",
+          "short_day": "Mon",
+          "focus": "Push A",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0025",
+              "name": "Barbell Bench Press",
+              "sets_count": 4,
+              "reps": "6-8",
+              "category": "Chest"
+            },
+            {
+              "id": "0047",
+              "name": "Incline Barbell Press",
+              "sets_count": 4,
+              "reps": "8",
+              "category": "Chest"
+            },
+            {
+              "id": "1755",
+              "name": "Weighted Dips",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Chest"
+            },
+            {
+              "id": "1456",
+              "name": "Standing Barbell Overhead Press",
+              "sets_count": 3,
+              "reps": "6-8",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0178",
+              "name": "Cable Lateral Raise",
+              "sets_count": 4,
+              "reps": "12-15",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0060",
+              "name": "Skull Crushers",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Arms"
+            },
+            {
+              "id": "0200",
+              "name": "Rope Pushdown",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday - Pull A",
+          "short_day": "Tue",
+          "focus": "Pull A",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0841",
+              "name": "Weighted Pull-Up",
+              "sets_count": 4,
+              "reps": "6-8",
+              "category": "Back"
+            },
+            {
+              "id": "3017",
+              "name": "Pendlay Row",
+              "sets_count": 4,
+              "reps": "6-8",
+              "category": "Back"
+            },
+            {
+              "id": "1349",
+              "name": "T-Bar Row",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Back"
+            },
+            {
+              "id": "0189",
+              "name": "Single-Arm Cable Row",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Back"
+            },
+            {
+              "id": "0233",
+              "name": "Face Pull",
+              "sets_count": 3,
+              "reps": "15",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0031",
+              "name": "Barbell Curl",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Arms"
+            },
+            {
+              "id": "0315",
+              "name": "Incline Dumbbell Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Wednesday - Legs A",
+          "short_day": "Wed",
+          "focus": "Legs A",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0026",
+              "name": "Barbell Back Squat",
+              "sets_count": 4,
+              "reps": "6-8",
+              "category": "Legs"
+            },
+            {
+              "id": "0085",
+              "name": "Romanian Deadlift",
+              "sets_count": 4,
+              "reps": "8",
+              "category": "Legs"
+            },
+            {
+              "id": "0098",
+              "name": "Bulgarian Split Squat",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Legs"
+            },
+            {
+              "id": "0046",
+              "name": "Hack Squat",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Legs"
+            },
+            {
+              "id": "1417",
+              "name": "Nordic Hamstring Curl",
+              "sets_count": 3,
+              "reps": "6-8",
+              "category": "Legs"
+            },
+            {
+              "id": "1372",
+              "name": "Standing Calf Raise",
+              "sets_count": 4,
+              "reps": "12",
+              "category": "Legs"
+            },
+            {
+              "id": "0472",
+              "name": "Hanging Leg Raise",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Thursday - Push B",
+          "short_day": "Thu",
+          "focus": "Push B",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0314",
+              "name": "Incline Dumbbell Press",
+              "sets_count": 4,
+              "reps": "8-10",
+              "category": "Chest"
+            },
+            {
+              "id": "0289",
+              "name": "Dumbbell Bench Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Chest"
+            },
+            {
+              "id": "1755",
+              "name": "Weighted Dips",
+              "sets_count": 3,
+              "reps": "8",
+              "category": "Chest"
+            },
+            {
+              "id": "2137",
+              "name": "Arnold Press",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0334",
+              "name": "Dumbbell Lateral Raise",
+              "sets_count": 4,
+              "reps": "12-15",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0194",
+              "name": "Overhead Cable Extension",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0200",
+              "name": "Rope Pushdown",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Friday - Pull B",
+          "short_day": "Fri",
+          "focus": "Pull B",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "1326",
+              "name": "Weighted Chin-Up",
+              "sets_count": 4,
+              "reps": "6-8",
+              "category": "Back"
+            },
+            {
+              "id": "0988",
+              "name": "Chest-Supported Row",
+              "sets_count": 4,
+              "reps": "8-10",
+              "category": "Back"
+            },
+            {
+              "id": "1349",
+              "name": "T-Bar Row",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Back"
+            },
+            {
+              "id": "2330",
+              "name": "Lat Pulldown",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Back"
+            },
+            {
+              "id": "0225",
+              "name": "Reverse Cable Fly",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0059",
+              "name": "Preacher Curl",
+              "sets_count": 3,
+              "reps": "10",
+              "category": "Arms"
+            },
+            {
+              "id": "0165",
+              "name": "Hammer Curl",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday - Legs B",
+          "short_day": "Sat",
+          "focus": "Legs B",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0024",
+              "name": "Front Squat",
+              "sets_count": 4,
+              "reps": "6-8",
+              "category": "Legs"
+            },
+            {
+              "id": "0085",
+              "name": "Romanian Deadlift",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0046",
+              "name": "Hack Squat",
+              "sets_count": 4,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "1460",
+              "name": "Walking Lunges",
+              "sets_count": 3,
+              "reps": "10 each leg",
+              "category": "Legs"
+            },
+            {
+              "id": "1417",
+              "name": "Nordic Hamstring Curl",
+              "sets_count": 3,
+              "reps": "6-8",
+              "category": "Legs"
+            },
+            {
+              "id": "0088",
+              "name": "Seated Calf Raise",
+              "sets_count": 4,
+              "reps": "12-15",
+              "category": "Legs"
+            },
+            {
+              "id": "0472",
+              "name": "Hanging Leg Raise",
+              "sets_count": 3,
+              "reps": "12",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Sunday - Rest",
+          "short_day": "Sun",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "id": "single_body_part",
+      "title": "Single Body Part",
+      "level": "Intermediate",
+      "goal": "Focus on one muscle group per session for maximum volume",
+      "schedule": "6 days/week",
+      "rest_seconds": 75,
+      "description": "Classic single body part split dedicating each day to a distinct muscle group: Back, Legs, Arms, Shoulders, Chest, and Abs, with Sunday rest.",
+      "days": [
+        {
+          "day_name": "Monday - Back",
+          "short_day": "Mon",
+          "focus": "Back",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0150",
+              "name": "Lat Pull Down",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0861",
+              "name": "Seated Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0606",
+              "name": "T Bar Row Wide",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0406",
+              "name": "DB Shrugs",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0652",
+              "name": "Pull-ups",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday - Legs",
+          "short_day": "Tue",
+          "focus": "Legs",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0043",
+              "name": "Squats",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0085",
+              "name": "RDL",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Ext",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            }
+          ]
+        },
+        {
+          "day_name": "Wednesday - Arms",
+          "short_day": "Wed",
+          "focus": "Arms",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0430",
+              "name": "Triceps Ext",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0313",
+              "name": "Hammer Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0060",
+              "name": "Skull Crushers",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0126",
+              "name": "Forearms",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Thursday - Shoulders",
+          "short_day": "Thu",
+          "focus": "Shoulders",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0405",
+              "name": "Shoulder Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0602",
+              "name": "Reverse Peck Deck",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            }
+          ]
+        },
+        {
+          "day_name": "Friday - Chest",
+          "short_day": "Fri",
+          "focus": "Chest",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0289",
+              "name": "Flat Dumbbell Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0314",
+              "name": "Incline Dumbbell Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0596",
+              "name": "Pec Deck Fly",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0301",
+              "name": "Decline Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0662",
+              "name": "Push-ups",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday - Abs",
+          "short_day": "Sat",
+          "focus": "Abs",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0274",
+              "name": "Crunches",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0872",
+              "name": "Reverse Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0223",
+              "name": "Side Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0407",
+              "name": "Side Bends",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Sunday - Rest",
+          "short_day": "Sun",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "id": "push_pull_leg",
+      "title": "Push Pull Leg",
+      "level": "Intermediate",
+      "goal": "Balanced push, pull, and leg training twice weekly",
+      "schedule": "6 days/week",
+      "rest_seconds": 90,
+      "description": "High-efficiency 6-day split alternating between Push (Chest/Shoulders/Triceps), Pull (Back/Biceps), and Legs, twice per week for optimal hypertrophy.",
+      "days": [
+        {
+          "day_name": "Monday - Push Day 1 (Chest + Triceps)",
+          "short_day": "Mon",
+          "focus": "Push Day 1 (Chest + Triceps)",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0025",
+              "name": "Flat Barbell Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0047",
+              "name": "Inclined Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0596",
+              "name": "Pec Deck Fly",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0405",
+              "name": "Shoulder Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0430",
+              "name": "Triceps Ext.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0060",
+              "name": "Skull Crushers",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0662",
+              "name": "Push-ups",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday - Pull Day 1 (Back + Biceps)",
+          "short_day": "Tue",
+          "focus": "Pull Day 1 (Back + Biceps)",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0652",
+              "name": "Pull-ups",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0150",
+              "name": "Lat Pull Down",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0861",
+              "name": "Seated Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0606",
+              "name": "T Bar Wide Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0406",
+              "name": "Shrugs",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0313",
+              "name": "Hammer Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0070",
+              "name": "Preacher Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Wednesday - Leg Day 1",
+          "short_day": "Wed",
+          "focus": "Leg Day 1",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0043",
+              "name": "Squats",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0739",
+              "name": "Leg Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "2368",
+              "name": "Split Squats",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Ext.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0274",
+              "name": "Abs Crunches",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0872",
+              "name": "Reverse Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0223",
+              "name": "Side Crunches",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Thursday - Push Day 2",
+          "short_day": "Thu",
+          "focus": "Push Day 2",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0289",
+              "name": "Flat Dumbbell Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0314",
+              "name": "Incline Dumbbell Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0301",
+              "name": "Decline Table Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0405",
+              "name": "Shoulder Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0860",
+              "name": "Kick Back Cable",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0814",
+              "name": "Dips",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Friday - Pull Day 2",
+          "short_day": "Fri",
+          "focus": "Pull Day 2",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0652",
+              "name": "Pull-ups",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0150",
+              "name": "Lat Pull Down",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0184",
+              "name": "Pullover Cable",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0606",
+              "name": "T Bar Wide Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0406",
+              "name": "Shrugs",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0313",
+              "name": "Hammer Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0070",
+              "name": "Preacher Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday - Leg Day 2",
+          "short_day": "Sat",
+          "focus": "Leg Day 2",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0085",
+              "name": "RDL",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curls",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "1409",
+              "name": "Hip Thrusts",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0336",
+              "name": "Lunges",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0274",
+              "name": "Abs Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0872",
+              "name": "Reverse Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0223",
+              "name": "Side Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Sunday - Rest",
+          "short_day": "Sun",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "id": "double_body_part",
+      "title": "Double Body Part",
+      "level": "Advanced",
+      "goal": "Dual muscle group pairing for high-volume progression",
+      "schedule": "6 days/week",
+      "rest_seconds": 90,
+      "description": "Advanced dual-muscle split pairing Chest & Triceps, Back & Biceps, and Legs & Shoulders with high volume across 6 workout days.",
+      "days": [
+        {
+          "day_name": "Monday - Chest + Triceps",
+          "short_day": "Mon",
+          "focus": "Chest + Triceps",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0025",
+              "name": "Flat Barbell Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0047",
+              "name": "Incline Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0596",
+              "name": "Pec Deck Fly",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "1261",
+              "name": "Cable Decline Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0814",
+              "name": "Dips",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0430",
+              "name": "Triceps Ext",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0860",
+              "name": "Kick Back Cable",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0060",
+              "name": "Skull Crushers",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0274",
+              "name": "Ab Crunches",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday - Back + Biceps",
+          "short_day": "Tue",
+          "focus": "Back + Biceps",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0652",
+              "name": "Pull-ups",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0150",
+              "name": "Lat Pull Down",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0861",
+              "name": "Seated Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0606",
+              "name": "T Bar Wide Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0602",
+              "name": "Reverse Pec Deck",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0406",
+              "name": "Shrugs",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0313",
+              "name": "Hammer Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0872",
+              "name": "Reverse Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Wednesday - Legs + Shoulders",
+          "short_day": "Wed",
+          "focus": "Legs + Shoulders",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0085",
+              "name": "RDL",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0043",
+              "name": "Barbell Squat",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0739",
+              "name": "Leg Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Ext.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0594",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Standing Calf Raise",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0405",
+              "name": "Shoulder Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raise",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0154",
+              "name": "Rear Delt Cable fly",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            }
+          ]
+        },
+        {
+          "day_name": "Thursday - Chest + Triceps",
+          "short_day": "Thu",
+          "focus": "Chest + Triceps",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0025",
+              "name": "Flat Barbell Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0047",
+              "name": "Incline Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0596",
+              "name": "Pec Deck Fly",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "1261",
+              "name": "Cable Decline Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0814",
+              "name": "Dips",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0430",
+              "name": "Triceps Ext",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0860",
+              "name": "Kick Back Cable",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0060",
+              "name": "Skull Crushers",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0274",
+              "name": "Ab Crunches",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Friday - Back + Biceps",
+          "short_day": "Fri",
+          "focus": "Back + Biceps",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0652",
+              "name": "Pull-ups",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0150",
+              "name": "Lat Pull Down",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0861",
+              "name": "Seated Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0606",
+              "name": "T Bar Wide Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0602",
+              "name": "Reverse Pec Deck",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0406",
+              "name": "Shrugs",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0313",
+              "name": "Hammer Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0872",
+              "name": "Reverse Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday - Legs + Shoulders",
+          "short_day": "Sat",
+          "focus": "Legs + Shoulders",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0085",
+              "name": "RDL",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0043",
+              "name": "Barbell Squat",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0739",
+              "name": "Leg Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Ext.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0594",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Standing Calf Raise",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0405",
+              "name": "Shoulder Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raise",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0154",
+              "name": "Rear Delt Cable fly",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            }
+          ]
+        },
+        {
+          "day_name": "Sunday - Rest",
+          "short_day": "Sun",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "id": "upper_lower_4x",
+      "title": "Upper Lower 4X",
+      "level": "Intermediate",
+      "goal": "Optimal frequency with dedicated mid-week and weekend recovery",
+      "schedule": "4 days/week",
+      "rest_seconds": 90,
+      "description": "A 4-day split alternating Lower and Upper sessions (Lower A, Upper A, Rest, Lower B, Upper B) with Wednesday, Saturday, and Sunday rest.",
+      "days": [
+        {
+          "day_name": "Monday - Lower A",
+          "short_day": "Mon",
+          "focus": "Lower A",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0739",
+              "name": "Leg Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0085",
+              "name": "RDL",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Ext",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0274",
+              "name": "Floor Crunches",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday - Upper A",
+          "short_day": "Tue",
+          "focus": "Upper A",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0025",
+              "name": "Flat Chest Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0047",
+              "name": "Incline Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0405",
+              "name": "Shoulder Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0150",
+              "name": "Lat Pull Down (Vertical Pull)",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0861",
+              "name": "Seated Row (Horizontal Pull)",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0430",
+              "name": "Triceps Extension",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Wednesday - Rest",
+          "short_day": "Wed",
+          "focus": "Rest",
+          "is_rest": true,
+          "exercises": []
+        },
+        {
+          "day_name": "Thursday - Lower B",
+          "short_day": "Thu",
+          "focus": "Lower B",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0043",
+              "name": "Squats",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "2368",
+              "name": "Split Squats",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Ext",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0274",
+              "name": "Floor Crunches",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Friday - Upper B",
+          "short_day": "Fri",
+          "focus": "Upper B",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0025",
+              "name": "Flat Chest Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0047",
+              "name": "Incline Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0405",
+              "name": "Shoulder Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0150",
+              "name": "Lat Pull Down (Vertical Pull)",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0861",
+              "name": "Seated Row (Horizontal Pull)",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0430",
+              "name": "Triceps Extension",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday - Rest",
+          "short_day": "Sat",
+          "focus": "Rest",
+          "is_rest": true,
+          "exercises": []
+        },
+        {
+          "day_name": "Sunday - Rest",
+          "short_day": "Sun",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "id": "upper_lower_6x",
+      "title": "Upper Lower 6X",
+      "level": "Advanced",
+      "goal": "High-frequency upper/lower split rotating 3 variations",
+      "schedule": "6 days/week",
+      "rest_seconds": 75,
+      "description": "High-frequency 6-day routine rotating through Upper A/B/C and Lower A/B/C for experienced lifters targeting maximum density.",
+      "days": [
+        {
+          "day_name": "Monday - Upper A",
+          "short_day": "Mon",
+          "focus": "Upper A",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0150",
+              "name": "Lat Pull Down",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0025",
+              "name": "Flat Chest Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0430",
+              "name": "Triceps Ext.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday - Lower A",
+          "short_day": "Tue",
+          "focus": "Lower A",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0032",
+              "name": "Deadlifts",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Ext",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "2368",
+              "name": "Split Squats",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            }
+          ]
+        },
+        {
+          "day_name": "Wednesday - Upper B",
+          "short_day": "Wed",
+          "focus": "Upper B",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0606",
+              "name": "T Bar Row wide",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0047",
+              "name": "Incline Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0405",
+              "name": "Shoulder Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0060",
+              "name": "Skull Crushers",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0313",
+              "name": "Hammer Curls",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Thursday - Lower B",
+          "short_day": "Thu",
+          "focus": "Lower B",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0739",
+              "name": "Leg Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Ext.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0085",
+              "name": "RDL",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            }
+          ]
+        },
+        {
+          "day_name": "Friday - Upper C",
+          "short_day": "Fri",
+          "focus": "Upper C",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0860",
+              "name": "Kick Back",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0378",
+              "name": "Rear Delt flys",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0033",
+              "name": "Decline Chest P.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0861",
+              "name": "Seated Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday - Lower C",
+          "short_day": "Sat",
+          "focus": "Lower C",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0043",
+              "name": "Squats",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "1460",
+              "name": "Walking lunges",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Ext",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            }
+          ]
+        },
+        {
+          "day_name": "Sunday - Rest",
+          "short_day": "Sun",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "id": "five_day_split",
+      "title": "5-Day Split",
+      "level": "Intermediate",
+      "goal": "Push / Pull / Leg followed by Upper / Lower hypertrophy",
+      "schedule": "5 days/week",
+      "rest_seconds": 90,
+      "description": "A hybrid 5-day training system featuring Push, Pull, Legs early in the week, followed by dedicated Upper and Lower hypertrophy days.",
+      "days": [
+        {
+          "day_name": "Monday - Push",
+          "short_day": "Mon",
+          "focus": "Push",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0025",
+              "name": "Flat Barbell Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0047",
+              "name": "Incline Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "1261",
+              "name": "Decline Cable P.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0596",
+              "name": "Pec Deck Fly",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0405",
+              "name": "Shoulder Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0430",
+              "name": "Triceps Ext.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0194",
+              "name": "Overhead Triceps Ext.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday - Pull",
+          "short_day": "Tue",
+          "focus": "Pull",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0652",
+              "name": "Pull-ups",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0150",
+              "name": "Lat Pull Down",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0861",
+              "name": "Seated Rows",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0606",
+              "name": "T Bar Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0602",
+              "name": "Reverse Pec Deck",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0406",
+              "name": "DB Shrugs",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0313",
+              "name": "Hammer Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Wednesday - Leg",
+          "short_day": "Wed",
+          "focus": "Leg",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0043",
+              "name": "Squats",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0739",
+              "name": "Leg Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0585",
+              "name": "Leg Ext.",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "2368",
+              "name": "Split Squats",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0274",
+              "name": "Floor Crunches",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0872",
+              "name": "Reverse Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0223",
+              "name": "Side Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Thursday - Upper",
+          "short_day": "Thu",
+          "focus": "Upper",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0025",
+              "name": "Flat Barbell Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0027",
+              "name": "BB Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0313",
+              "name": "Hammer Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            }
+          ]
+        },
+        {
+          "day_name": "Friday - Lower",
+          "short_day": "Fri",
+          "focus": "Lower",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0085",
+              "name": "RDL",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "1409",
+              "name": "Hip Thrust",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0336",
+              "name": "Lunges",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0274",
+              "name": "Floor Crunches",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday - Rest",
+          "short_day": "Sat",
+          "focus": "Rest",
+          "is_rest": true,
+          "exercises": []
+        },
+        {
+          "day_name": "Sunday - Rest",
+          "short_day": "Sun",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        }
+      ]
+    },
+    {
+      "id": "full_body_3x",
+      "title": "Full Body 3X",
+      "level": "Beginner",
+      "goal": "Complete full-body stimulation with ample recovery",
+      "schedule": "3 days/week",
+      "rest_seconds": 75,
+      "description": "A 3-day full-body split (Monday Full Body A, Wednesday Full Body B, Friday Full Body C) designed for balanced development and consistency.",
+      "days": [
+        {
+          "day_name": "Monday - Full Body A",
+          "short_day": "Mon",
+          "focus": "Full Body A",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0274",
+              "name": "AB Crunches",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0294",
+              "name": "Biceps Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0060",
+              "name": "Skull Crushers",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0025",
+              "name": "Chest Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0150",
+              "name": "Lat Pull Down",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0218",
+              "name": "Wide Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0334",
+              "name": "Lateral Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0043",
+              "name": "Squats/Leg Press (squat option)",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0739",
+              "name": "Squats/Leg Press (leg press option)",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0586",
+              "name": "Leg Curls",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            }
+          ]
+        },
+        {
+          "day_name": "Tuesday - Rest",
+          "short_day": "Tue",
+          "focus": "Rest",
+          "is_rest": true,
+          "exercises": []
+        },
+        {
+          "day_name": "Wednesday - Full Body B",
+          "short_day": "Wed",
+          "focus": "Full Body B",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0472",
+              "name": "Leg Raises",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0313",
+              "name": "Hammer Curls",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0430",
+              "name": "Triceps Ext",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0047",
+              "name": "Inclined Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0861",
+              "name": "Seated Row",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0375",
+              "name": "Pullover",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0405",
+              "name": "Shoulder Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "2368",
+              "name": "Split Squats",
+              "sets_count": 3,
+              "reps": "8-10",
+              "category": "Legs"
+            },
+            {
+              "id": "0085",
+              "name": "RDL",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            }
+          ]
+        },
+        {
+          "day_name": "Thursday - Rest",
+          "short_day": "Thu",
+          "focus": "Rest",
+          "is_rest": true,
+          "exercises": []
+        },
+        {
+          "day_name": "Friday - Full Body C",
+          "short_day": "Fri",
+          "focus": "Full Body C",
+          "is_rest": false,
+          "exercises": [
+            {
+              "id": "0223",
+              "name": "Side Crunch",
+              "sets_count": 3,
+              "reps": "12-15",
+              "category": "Core"
+            },
+            {
+              "id": "0080",
+              "name": "Reverse Barbell Curl",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0030",
+              "name": "Close-Grip Bench Press",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Arms"
+            },
+            {
+              "id": "0596",
+              "name": "Pec Deck Fly",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Chest"
+            },
+            {
+              "id": "0238",
+              "name": "Straight Arm Lat Pulldown",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0406",
+              "name": "DB Shrugs",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Back"
+            },
+            {
+              "id": "0378",
+              "name": "Rear Delt flys",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Shoulders"
+            },
+            {
+              "id": "0336",
+              "name": "Lunges",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "1409",
+              "name": "Hip Thrust",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            },
+            {
+              "id": "0605",
+              "name": "Calf Raises",
+              "sets_count": 3,
+              "reps": "10-12",
+              "category": "Legs"
+            }
+          ]
+        },
+        {
+          "day_name": "Saturday - Rest",
+          "short_day": "Sat",
+          "focus": "Rest",
+          "is_rest": true,
+          "exercises": []
+        },
+        {
+          "day_name": "Sunday - Rest",
+          "short_day": "Sun",
+          "focus": "Recovery",
+          "is_rest": true,
+          "exercises": []
+        }
+      ]
+    }
+  ]
+}
