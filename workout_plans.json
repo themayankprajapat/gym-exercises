@@ -1,11 +1,16 @@
 {
-  "version": 2,
-  "last_updated": "2026-11-15",
+  "version": 3,
+  "last_updated": "2026-11-16",
+  "levels": [
+    "Beginner",
+    "Intermediate",
+    "Advanced"
+  ],
   "plans": [
     {
       "id": "single_body_part",
       "title": "Single Body Part",
-      "level": "Intermediate",
+      "level": "Beginner",
       "goal": "Focus on one muscle group per session for maximum volume",
       "schedule": "6 days/week",
       "rest_seconds": 75,
